@@ -1,0 +1,19 @@
+1.Sign Up/Login:-
+
+Visit OpenAI's website and sign up for an account if you don't have one, or log in if you already have an account.
+2.Access API Keys:
+
+After logging in, navigate to the API section of the OpenAI dashboard. This can typically be found under your account settings or a dedicated "API" menu item.
+
+3.Generate a New API Key:
+
+In the API keys section, click on the button to create a new API key. This will generate a unique key for you.
+
+4.Copy the API Key:
+
+Copy the newly generated API key and store it securely. You'll need this key to authenticate your requests to the OpenAI API.
+
+##Use this key in your Python code as follows:
+
+import openai
+openai.api_key = 'your-api-key'
